@@ -1,0 +1,4 @@
+#Thu Feb 07 16:20:41 NPT 2019
+base.0=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
+renamed.0=classes.dex
+file.0=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex
