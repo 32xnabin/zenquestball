@@ -2,4 +2,4 @@
 #SurfaceView
 #Gyro Senser
 
-#A project to showcase Rudimentary features 
+#A project to showcase Rudimentary use of Physic Engine Box2d 
