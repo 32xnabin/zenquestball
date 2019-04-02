@@ -37,9 +37,9 @@ public class GameActivity extends Activity {
 	SurfaceView view;
 	//@SuppressLint("NewApi")
 	@Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        Drawable myDrawable =getResources().getDrawable(R.drawable.backgroud1);
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		Drawable myDrawable =getResources().getDrawable(R.drawable.backgroud1);
 		Bitmap myLogo = ((BitmapDrawable) myDrawable).getBitmap();
 
 		POJO pojo=new POJO();
@@ -61,42 +61,25 @@ public class GameActivity extends Activity {
 		pojo.setBall3(ball3);
 		pojo.setBall4(ball4);
 
-	    //level=sm.getLevel();
+		//level=sm.getLevel();
 		SharedPreferencesManager sm=new SharedPreferencesManager(getApplicationContext());
 		int level=sm.getLevel();
 		Toast.makeText(this, "level---"+level, Toast.LENGTH_LONG).show();
 
-       //  view=new Box2dView(this,createDynamicGradient("#cccccc"),pojo,level);
+		//  view=new Box2dView(this,createDynamicGradient("#cccccc"),pojo,level);
 
 		view=new Box2dView(this,myLogo,pojo,level);
 
 
 
 		setContentView(R.layout.game_activity);
-        LinearLayout ll=(LinearLayout)findViewById(R.id.gamePart);
-        ll.addView(view);
+		LinearLayout ll=(LinearLayout)findViewById(R.id.gamePart);
+		ll.addView(view);
 
-       //getActionBar().hide();
+		//getActionBar().hide();
 
-    }
-
-	private Bitmap createDynamicGradient(String color) {
-		int colors[] = new int[3];
-		colors[0] = Color.parseColor(color);
-		colors[1] = Color.parseColor("#eeeeee");
-		colors[2] = Color.parseColor("#eeeeee");
-
-		LinearGradient gradient = new LinearGradient(0, 0, 800, 1200, Color.GRAY, Color.TRANSPARENT, Shader.TileMode.CLAMP);
-		Paint p = new Paint();
-		p.setDither(true);
-		p.setShader(gradient);
-
-		Bitmap bitmap = Bitmap.createBitmap(800, 1200, Bitmap.Config.ARGB_8888);
-		Canvas canvas = new Canvas(bitmap);
-		canvas.drawRect(new RectF(0, 0, 800, 1200), p);
-
-		return bitmap;
 	}
+
 
 
 
@@ -117,8 +100,7 @@ public class GameActivity extends Activity {
 	@Override
 	public void onBackPressed() {
 		// TODO Auto-generated method stub
-	//	super.onBackPressed();
-		Intent i=new Intent(this,MainActivity.class);
-		startActivity(i);
+		super.onBackPressed();
+
 	}
 }

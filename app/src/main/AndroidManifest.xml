@@ -7,7 +7,7 @@
     <application
         android:icon="@drawable/logoo"
         android:label="@string/app_name">
-        <supports-screens android:anyDensity="false" />
+
 
         <activity
             android:name=".GameActivity"

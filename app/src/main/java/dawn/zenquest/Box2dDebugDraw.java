@@ -33,7 +33,7 @@ import android.view.MotionEvent;
 /**
  * DebugDraw ʵ����
  * ����BOX2D�ڲ���ͼ
- * 
+ *
  * @author JianbinZhu
  *
  */
@@ -49,37 +49,37 @@ public class Box2dDebugDraw extends DebugDraw {
 	Bitmap bmp1;
 	public Box2dDebugDraw(Box2dSurfaceView testbedView,POJO pojo) {
 		super(new OBBViewportTransform());
-        this.bmp=pojo.getBall2();
-        this.bmp1=pojo.getBall4();
+		this.bmp=pojo.getBall2();
+		this.bmp1=pojo.getBall4();
 		this.testbedView = testbedView;
-		
+
 		path = new Path();
 		paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		transform = (OBBViewportTransform) viewportTransform;
-		
+
 		//Ĭ���ӽ�λ�ã���Ļ����λ������������λ���غϣ�
 		scale = 10;
 		camera_x = -(Box2dSurfaceView.screenW/2) / scale;
 		camera_y = (Box2dSurfaceView.screenH - 10) / scale;
-		
+
 		//
 		setCamera();
-		
+
 	}
-	
+
 	private float camera_x, camera_y, scale;
 	public void setCamera() {
 		transform.setYFlip(true);
 
 		transform.setCamera(camera_x, camera_y, scale);
 	}
-	
+
 	public void setCamera(float x, float y) {
 		camera_x = x;
 		camera_y = y;
 		setCamera();
 	}
-	
+
 	public void setScale(float scale) {
 		this.scale = scale;
 		setCamera();
@@ -93,7 +93,7 @@ public class Box2dDebugDraw extends DebugDraw {
 		int action = event.getAction();
 		float x = event.getX();
 		float y = event.getY();
-		
+
 //		switch(action){
 //			case MotionEvent.ACTION_DOWN:{
 //				System.out.println("ACTION_DOWN");
@@ -114,13 +114,13 @@ public class Box2dDebugDraw extends DebugDraw {
 //			
 //			//case MotionEvent.
 //		}
-		
+
 		return true;
 	}
-	
+
 	/**
 	 * ���û�����ɫ
-	 * 
+	 *
 	 * @param color
 	 */
 	public void setColor(Color3f color) {
@@ -130,7 +130,7 @@ public class Box2dDebugDraw extends DebugDraw {
 
 		paint.setColor(Color.rgb(r, g, b));
 	}
-	
+
 	public void setBitmap(Color3f color) {
 		int r = (int) (0xff * color.x);
 		int g = (int) (0xff * color.y);
@@ -142,15 +142,15 @@ public class Box2dDebugDraw extends DebugDraw {
 	private Rect r_text = new Rect();
 	public void draw(Canvas canvas) {
 		this.canvas = canvas;
-		
+
 		String text = "cx="+camera_x + " cy=" + camera_y;
 		paint.getTextBounds(text, 0, text.length(), r_text);
 		paint.setColor(0xff00ff00);
-		
-		
+
+
 		try{
-		
-		canvas.drawText(text, Box2dSurfaceView.screenW-r_text.width(), 3+r_text.height(), paint);
+
+			canvas.drawText(text, Box2dSurfaceView.screenW-r_text.width(), 3+r_text.height(), paint);
 		}catch(Exception e){}
 	}
 
@@ -190,16 +190,16 @@ public class Box2dDebugDraw extends DebugDraw {
 //		BitmapShader fillBMPshader = new BitmapShader(bmp, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT); 
 //		paint.setShader(fillBMPshader);
 		//paint.setShadowLayer(3, 3, 3, Color.RED);
-		
-		
-		
+
+
+
 //        paint.setDither(true);  
 //        paint.setColor(0xFFFFFF00);  
 //        paint.setStyle(Paint.Style.STROKE);  
 //        paint.setAntiAlias(true);  
 //        paint.setStrokeWidth(3);  
-  
-        //Initialize the bitmap object by loading an image from the resources folder  
+
+		//Initialize the bitmap object by loading an image from the resources folder
 //       Bitmap fillBMP = bmp; 
 //        //Initialize the BitmapShader with the Bitmap object and set the texture tile mode  
 //       BitmapShader fillBMPshader = new BitmapShader(fillBMP, TileMode.REPEAT, Shader.TileMode.REPEAT);  
@@ -207,8 +207,8 @@ public class Box2dDebugDraw extends DebugDraw {
 //        //Initialize the fillPaint object  
 //      
 //       paint.setShader(fillBMPshader);  
-       // canvas.setBitmap(bmp);
-	//	paint.setShader(new LinearGradient(0, 0, 0, 5, Color.BLACK, Color.WHITE, Shader.TileMode.MIRROR));
+		// canvas.setBitmap(bmp);
+		//	paint.setShader(new LinearGradient(0, 0, 0, 5, Color.BLACK, Color.WHITE, Shader.TileMode.MIRROR));
 		//paint.setShader(new LinearGradient(1, 1, 1, 3, Color.BLACK, Color.WHITE, Shader.TileMode.CLAMP));
 		Paint p=new Paint();
 		p.setShader(new LinearGradient(5, 0, 0, 5, Color.parseColor("#66341B"),Color.parseColor("#66341B"), Shader.TileMode.REPEAT));
@@ -216,12 +216,12 @@ public class Box2dDebugDraw extends DebugDraw {
 		//p.setShadowLayer(0.3f, 0, 0,Color.parseColor("#66341B"));
 		//p.setShadowLayer(4.5f, 0.0f, 7.0f, Color.parseColor("#000000"));
 
-        // Important for certain APIs 
-      //  setLayerType(Paint.LAYER_TYPE_SOFTWARE, p);
+		// Important for certain APIs
+		//  setLayerType(Paint.LAYER_TYPE_SOFTWARE, p);
 		//canvas.drawCircle(sp1.x, sp1.y, radius*scale, p);
-	 
+
 		canvas.drawPath(path, p);
-		
+
 	}
 
 	/**
@@ -231,13 +231,13 @@ public class Box2dDebugDraw extends DebugDraw {
 	public void drawCircle(Vec2 center, float radius, Color3f color) {
 		// TODO Auto-generated method stub
 		getWorldToScreenToOut(center, sp1);
-   
+
 		setColor(color);
 		paint.setStyle(Style.FILL);
 		//paint.setShader(new LinearGradient(0, 0, 0, 5, Color.WHITE, Color.RED, Shader.TileMode.MIRROR));
 		canvas.drawCircle(sp1.x, sp1.y, radius*scale, paint);
 		//BitmapHelper helper=new BitmapHelper();
-		
+
 		//canvas.drawBitmap(rounded, sp1.x, sp1.y, paint);
 	}
 
@@ -269,7 +269,7 @@ public class Box2dDebugDraw extends DebugDraw {
 			p.setShader(new LinearGradient(0, 0, 0, 5, Color.RED, Color.GRAY, Shader.TileMode.MIRROR));
 			//canvas.drawCircle(sp1.x, sp1.y, radius*scale, p);
 			canvas.drawBitmap(rounded, sp1.x-(radius*scale), sp1.y-(radius*scale), paint);
-  		}
+		}
 		else if(radius==2.3f){
 ////		PaintHelper helper=new PaintHelper();
 ////		paint=helper.getGradient1(paint,sp1.x, sp1.y,radius*scale);
@@ -277,14 +277,14 @@ public class Box2dDebugDraw extends DebugDraw {
 			p.setShader(new LinearGradient(0, 0, 0, 5, Color.RED, Color.GRAY, Shader.TileMode.MIRROR));
 			//canvas.drawCircle(sp1.x, sp1.y, radius*scale, p);
 			canvas.drawBitmap(hole, sp1.x-(radius*scale), sp1.y-(radius*scale), paint);
-  		}
+		}
 		else{
 			Paint p=paint;
 			p.setShader(new LinearGradient(0, 0, 0, 5, Color.GRAY, Color.GRAY, Shader.TileMode.MIRROR));
-		    canvas.drawCircle(sp1.x, sp1.y, radius*scale, p);
+			canvas.drawCircle(sp1.x, sp1.y, radius*scale, p);
 		}
-		
-		
+
+
 
 	}
 
@@ -334,8 +334,8 @@ public class Box2dDebugDraw extends DebugDraw {
 		setColor(color);
 		canvas.drawText(s, x, y, paint);
 	}
-	
-	
-	
-	
+
+
+
+
 }

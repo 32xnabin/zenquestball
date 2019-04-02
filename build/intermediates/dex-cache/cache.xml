@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/portfolio/ZenQuest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_553c253c04e5245a8100b25e876ff4dc73cd240a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/portfolio/ZenQuest/app/src/main/libs/JBox2d4Android_2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="52d1490c94c36477891a209c3430d8d381e1e29e">
+        <dex dex="/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/2/JBox2d4Android_2.1.2_e6183da03aaf0c340f14edd8629a6eb135539eed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/portfolio/ZenQuest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5eb0dacff1e1f8d136b7c5728c39878ed01aee8">
+        <dex dex="/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bc38471dc7362cf854c9e7ef5815f495e4949b7c/classes.dex" />
+    </item>
+
+</items>

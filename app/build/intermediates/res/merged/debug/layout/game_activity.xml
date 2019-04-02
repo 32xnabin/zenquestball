@@ -19,10 +19,11 @@
     >
 
    <LinearLayout
+       android:visibility="gone"
         android:background="#eee"
     android:layout_width="match_parent"
     android:layout_height="30dp"
-    android:layout_weight="1"
+    android:layout_weight="0"
 
     android:orientation="horizontal"
        ></LinearLayout>
@@ -32,7 +33,7 @@
          android:background="#eee"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_weight="4"
+    android:layout_weight="5"
     android:orientation="vertical"
         ></LinearLayout>
 </LinearLayout>
@@ -41,7 +42,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginTop="176dp"
+    android:layout_marginTop="0dp"
     android:layout_marginLeft="7dp"
     android:weightSum="4"
     android:visibility="gone"

@@ -1,6 +1,6 @@
 [
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/portfolio/ZenQuest/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }
 ]

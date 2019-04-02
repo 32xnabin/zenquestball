@@ -1,194 +1,194 @@
 [
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_welcome.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/fragment_welcome.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_playout.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/activity_playout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/fragment_main.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_lines.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/activity_welcome.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_splash.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/fragment_splash.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/list_item.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/list_item.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/main.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_media_action.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_big_media.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/activity_main.xml"
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/game_activity.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/game_activity.xml"
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_lines.xml"
     },
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/game_activity.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/game_activity.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/xms.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/xms.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_splash.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/xms.xml",
-        "source": "/Android/personal/ZenQuest/app/src/main/res/layout/xms.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Android/personal/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
         "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_welcome.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/fragment_welcome.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/nepaldigital/.android/build-cache/c2342c78c61d1a95d00ea293ea0ea34ed7864b3f/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/portfolio/ZenQuest/app/build/intermediates/res/merged/debug/layout/activity_playout.xml",
+        "source": "/portfolio/ZenQuest/app/src/main/res/layout/activity_playout.xml"
     }
 ]

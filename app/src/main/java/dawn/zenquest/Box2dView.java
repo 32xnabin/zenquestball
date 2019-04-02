@@ -71,8 +71,8 @@ public class Box2dView extends Box2dSurfaceView {
 		}
 
 
-	//	System.out.println("-width---------wwwwww------->>>>>>>>>>>"+realWidth);
-	//	System.out.println("-width----------hhhhhh--------->>>>>>>>>>>"+realHeight);
+		//	System.out.println("-width---------wwwwww------->>>>>>>>>>>"+realWidth);
+		//	System.out.println("-width----------hhhhhh--------->>>>>>>>>>>"+realHeight);
 	}
 
 	private void setRealDeviceSizeInPixels() {
@@ -83,8 +83,8 @@ public class Box2dView extends Box2dSurfaceView {
 
 
 		// since SDK_INT = 1;
-		 mWidthPixels = displayMetrics.widthPixels;
-		 mHeightPixels = displayMetrics.heightPixels;
+		mWidthPixels = displayMetrics.widthPixels;
+		mHeightPixels = displayMetrics.heightPixels;
 
 		// includes window decorations (statusbar bar/menu bar)
 		if (Build.VERSION.SDK_INT >= 14 && Build.VERSION.SDK_INT < 17) {
@@ -106,8 +106,8 @@ public class Box2dView extends Box2dSurfaceView {
 			}
 		}
 
-//		mWidthPixels = 300;
-//		mHeightPixels = 300;
+		mWidthPixels = 300;
+		mHeightPixels = 300;
 		//System.out.println("-width----------KKKKKKKKKKKKKKKKK--actualllllll--------->>>>>>>>>>>"+mWidthPixels);
 		//System.out.println("-width----------KKKKKKKKKKKKKKKKK--actualllllll--------->>>>>>>>>>>"+mHeightPixels);
 
@@ -124,7 +124,7 @@ public class Box2dView extends Box2dSurfaceView {
 
 		createRings();
 		createBalls();
-	//	createHoles();
+		createHoles();
 
 	}
 
@@ -161,9 +161,6 @@ public class Box2dView extends Box2dSurfaceView {
 
 		Body body = getWorld().createBody(bodyDef);
 		body.createFixture(fixtureDef);
-
-
-
 
 
 
@@ -265,7 +262,7 @@ public class Box2dView extends Box2dSurfaceView {
 	public  void createFourWalls(){
 
 
-         System.out.println("---x-----"+mWidthPixels+"---------y---"+mHeightPixels);
+		System.out.println("---x-----"+mWidthPixels+"---------y---"+mHeightPixels);
 
 		BodyDef bodyDef = new BodyDef();
 
@@ -405,13 +402,13 @@ public class Box2dView extends Box2dSurfaceView {
 
 		PolygonShape shape = new PolygonShape();
 
-		generateCircle(160, 6, 25, shape);
-		generateCircle(150, 6, 25, shape);
-		generateCircle(128, 6, 25, shape);
-		generateCircle(103, 6, 25, shape);
-		generateCircle(78, 6, 25, shape);
-		generateCircle(54, 6, 25, shape);
-		generateCircle(30, 6, 15, shape);
+		generateCircle(160, 4, 25, shape);
+		generateCircle(150, 4, 25, shape);
+		generateCircle(128, 4, 25, shape);
+		generateCircle(103, 4, 25, shape);
+		generateCircle(78, 4, 25, shape);
+		generateCircle(54, 4, 25, shape);
+		generateCircle(30, 4, 15, shape);
 
 	}
 
@@ -431,21 +428,21 @@ public class Box2dView extends Box2dSurfaceView {
 		int ballNo = 4;
 		switch (level) {
 
-		case 1:
-			ballNo = 2;
-			break;
-		case 2:
-			ballNo = 2;
-			break;
-		case 3:
-			ballNo = 3;
-			break;
-		case 4:
-			ballNo = 3;
-			break;
-		case 5:
-			ballNo = 3;
-			break;
+			case 1:
+				ballNo = 2;
+				break;
+			case 2:
+				ballNo = 2;
+				break;
+			case 3:
+				ballNo = 3;
+				break;
+			case 4:
+				ballNo = 3;
+				break;
+			case 5:
+				ballNo = 3;
+				break;
 
 		}
 
@@ -485,49 +482,49 @@ public class Box2dView extends Box2dSurfaceView {
 
 	public void createHoles() {
 
-		switch (level) {
+//		switch (level) {
+//
+//		case 1:
+//			createHolesAt(-17f, 50.0f);// 1
+//			createHolesAt(15f, 45.0f);// 2
+//			break;
+//		case 2:
+//			createHolesAt(-17f, 50.0f);// 1
+//			createHolesAt(15f, 45.0f);// 2
+//			createHolesAt(0f, 70.0f);// 3
+//			break;
+//		case 3:
+//			createHolesAt(-17f, 50.0f);// 1
+//			createHolesAt(15f, 45.0f);// 2
+//			createHolesAt(0f, 70.0f);// 3
+//			createHolesAt(0f, 40.0f);// 4
+//			break;
+//		case 4:
+//			createHolesAt(-17f, 50.0f);// 1
+//			createHolesAt(15f, 45.0f);// 2
+//			createHolesAt(0f, 70.0f);// 3
+//			createHolesAt(0f, 40.0f);// 4
+//			createHolesAt(-11f, 55.0f);//5
+//			break;
+//		case 5:
+//			createHolesAt(-17f, 50.0f);// 1
+//			createHolesAt(15f, 45.0f);// 2
+//			createHolesAt(0f, 70.0f);// 3
+//			createHolesAt(0f, 40.0f);// 4
+//			createHolesAt(-11f, 55.0f);//5
+//			break;
+//		 default:
+//			 createHolesAt(-17f, 50.0f);// 1
+//				createHolesAt(15f, 45.0f);// 2
+//				createHolesAt(0f, 70.0f);// 3
+//				createHolesAt(0f, 40.0f);// 4
+//				createHolesAt(-11f, 55.0f);//5
+//
+//
+//		}
 
-		case 1:
-			createHolesAt(-17f, 50.0f);// 1
-			createHolesAt(15f, 45.0f);// 2
-			break;
-		case 2:
-			createHolesAt(-17f, 50.0f);// 1
-			createHolesAt(15f, 45.0f);// 2
-			createHolesAt(0f, 70.0f);// 3
-			break;
-		case 3:
-			createHolesAt(-17f, 50.0f);// 1
-			createHolesAt(15f, 45.0f);// 2
-			createHolesAt(0f, 70.0f);// 3
-			createHolesAt(0f, 40.0f);// 4
-			break;
-		case 4:
-			createHolesAt(-17f, 50.0f);// 1
-			createHolesAt(15f, 45.0f);// 2
-			createHolesAt(0f, 70.0f);// 3
-			createHolesAt(0f, 40.0f);// 4
-			createHolesAt(-11f, 55.0f);//5
-			break;
-		case 5:
-			createHolesAt(-17f, 50.0f);// 1
-			createHolesAt(15f, 45.0f);// 2
-			createHolesAt(0f, 70.0f);// 3
-			createHolesAt(0f, 40.0f);// 4
-			createHolesAt(-11f, 55.0f);//5
-			break;
-		 default:
-			 createHolesAt(-17f, 50.0f);// 1
-				createHolesAt(15f, 45.0f);// 2
-				createHolesAt(0f, 70.0f);// 3
-				createHolesAt(0f, 40.0f);// 4
-				createHolesAt(-11f, 55.0f);//5
-
-
-		}
-
-//		createHolesAt(-17f, 50.0f);// 1
-//		createHolesAt(-11f, 55.0f);// 5
+		createHolesAt(-19f, 70.0f);// 1
+		createHolesAt(-14f, 90.0f);// 5
 //		createHolesAt(0f, 70.0f);// 3
 //		createHolesAt(0f, 40.0f);// 4
 //		createHolesAt(15f, 45.0f);// 2
@@ -567,17 +564,18 @@ public class Box2dView extends Box2dSurfaceView {
 	}
 
 	public void generateCircle(int rolyRadius, int scale, int pices,
-			PolygonShape shape) {
+							   PolygonShape shape) {
 
 		//System.out.println("---------hhhhhhhhh-----------" + screenW);
-	//	System.out.println("----------hhhhhhhhh----------" + screenH);
+		//	System.out.println("----------hhhhhhhhh----------" + screenH);
 
 		//Vec2 rolyCenter = new Vec2(0.00f, 57.6f);//mWidthPixels
 
-		Vec2 rolyCenter = new Vec2(0.00f, (screenW/scale)/2f);
+		//Vec2 rolyCenter = new Vec2(0.00f, (screenW/scale)/2f);
+		Vec2 rolyCenter = new Vec2(0.00f, (screenW/6)/2f);
 
-	//	System.out.println("---------xxxxxx-----------" + rolyCenter.x);
-	//	System.out.println("----------yyyy----------" + rolyCenter.y);
+		//	System.out.println("---------xxxxxx-----------" + rolyCenter.x);
+		//	System.out.println("----------yyyy----------" + rolyCenter.y);
 
 
 		float centerAngle = (float) (2 * Math.PI / pices);

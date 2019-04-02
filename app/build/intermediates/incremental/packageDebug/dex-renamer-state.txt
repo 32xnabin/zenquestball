@@ -1,7 +1,7 @@
-#Fri Feb 08 10:48:48 NPT 2019
-base.0=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_daf25e6d1988683852cb04908d2695ff24253586
+#Tue Apr 02 14:23:34 NPT 2019
+base.0=/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bc38471dc7362cf854c9e7ef5815f495e4949b7c
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ddc063566672c0377d4654fa1a60d2d1426acc3f/classes.dex
-base.1=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ddc063566672c0377d4654fa1a60d2d1426acc3f
-file.0=/Android/personal/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_daf25e6d1988683852cb04908d2695ff24253586/classes.dex
+file.1=/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_553c253c04e5245a8100b25e876ff4dc73cd240a/classes.dex
+base.1=/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_553c253c04e5245a8100b25e876ff4dc73cd240a
+file.0=/portfolio/ZenQuest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bc38471dc7362cf854c9e7ef5815f495e4949b7c/classes.dex
